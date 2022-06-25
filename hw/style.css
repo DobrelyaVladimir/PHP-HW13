@@ -1,10 +1,23 @@
 .container {
     max-width: 800px;
     margin: auto;
+    text-align: center;
 }
 .hide {
     display: none;
+    color: red;
 }
 .error {
     display: block;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input, button {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 15px;
 }
